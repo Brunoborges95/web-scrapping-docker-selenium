@@ -1,0 +1,6 @@
+version: '3'
+services:
+  my-service:
+    image: lambda-selenium
+    env_file:
+      - .env
